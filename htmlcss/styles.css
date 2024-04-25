@@ -1,0 +1,51 @@
+:root{
+    --color1: #5A92CF;
+    --color2: #F5CE43;
+    --color3: #F48C16;
+    --color4: #EE1F29;
+    --color5: #000000;
+    --color6: #EEEEEE;
+    --color7: #FFFFFF;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.caja{
+    display: flex;
+}
+.columna20{
+    width: 20%;
+    background-color: var(--color5);
+    padding-top: 20px;
+}
+.columna80{
+    width: 80%;
+}
+.boton{
+    text-align: center;
+    padding: 15px;
+    padding: 30px;
+}
+a{
+    color: var(--color7);
+    text-decoration:none;
+}
+.caja25{
+    height: 25vh;
+    color: #EEEEEE;
+}
+.caja1{
+    background-color: var(--color1);
+}
+.caja2{
+    background-color: var(--color2);
+}
+.caja3{
+    background-color: var(--color3);
+}
+.caja4{
+    background-color: var(--color4);
+}
